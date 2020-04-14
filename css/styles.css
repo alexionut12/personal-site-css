@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 50px;
+  padding: 30px 0px 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 500px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 500px;
+  bottom: 300px;
+}
+
+.me {
+  margin-top: 50px;
+  width: 180px;
+  border-radius: 100%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.computer {
+  width: 25%;
+  float: left;
+  border-radius: 100%;
+  margin-right: 30px;
+}
+
+.world_gif {
+  width: 25%;
+  float: right;
+  border-radius: 100%;
+  margin-right: 30px;
+}
+
+.btn {
+  color: rgb(255, 230, 230);
+  font-size: 24px;
+  padding: 11px;
+  text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+  -webkit-border-radius: 20.999970307221282px;
+  -moz-border-radius: 20.999970307221282px;
+  border-radius: 20.999970307221282px;
+  background: rgb(174, 191, 243);
+  background: -moz-linear-gradient(90deg, rgb(174, 191, 243) 100%, rgb(250, 20, 20) 70%);
+  background: -webkit-linear-gradient(90deg, rgb(174, 191, 243) 100%, rgb(250, 20, 20) 70%);
+  background: -o-linear-gradient(90deg, rgb(174, 191, 243) 100%, rgb(250, 20, 20) 70%);
+  background: -ms-linear-gradient(90deg, rgb(174, 191, 243) 100%, rgb(250, 20, 20) 70%);
+  background: linear-gradient(0deg, rgb(174, 191, 243) 100%, rgb(250, 20, 20) 70%);
+  -webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+  text-decoration: none;
+}
